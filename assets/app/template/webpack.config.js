@@ -60,31 +60,31 @@ module.exports = {
             commonjs: 'immutable',
             amd: 'immutable'
         },
-        "mk-sdk": "MK",
-        "mk-app-loader": {
-            root:["MK","appLoader"],
-            commonjs:"MK.appLoader",
-            commonjs2:"MK.appLoader",
-            amd:"MK.appLoader"
+        "fk-sdk": "FK",
+        "fk-app-loader": {
+            root:["FK","appLoader"],
+            commonjs:"FK.appLoader",
+            commonjs2:"FK.appLoader",
+            amd:"FK.appLoader"
         },
-        "mk-utils": {
-            root:["MK","utils"],
-            commonjs2:"MK.utils",
-            amd:"MK.utils",
-            commonjs:"MK.utils",
+        "fk-utils": {
+            root:["FK","utils"],
+            commonjs2:"FK.utils",
+            amd:"FK.utils",
+            commonjs:"FK.utils",
            
         },
-        "mk-component": {
-            root:["MK","component"],
-            commonjs2:"MK.component",
-            amd:"MK.component",
-            commonjs:"MK.component"
+        "fk-component": {
+            root:["FK","component"],
+            commonjs2:"FK.component",
+            amd:"FK.component",
+            commonjs:"FK.component"
         },
-        "mk-meta-engine":  {
-            commonjs:["MK","metaEngine"],
-            commonjs2:"MK.metaEngine",
-            amd:"MK.metaEngine",
-            root:"MK.metaEngine"
+        "fk-meta-engine":  {
+            commonjs:["FK","metaEngine"],
+            commonjs2:"FK.metaEngine",
+            amd:"FK.metaEngine",
+            root:"FK.metaEngine"
         },
         "mk-aar-form":"mk-aar-form",
         "mk-aar-grid":"mk-aar-grid"
